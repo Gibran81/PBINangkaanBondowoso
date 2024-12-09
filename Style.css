@@ -1,0 +1,133 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar-nav {
+          font-weight: bold;
+          font-size: 20px;
+        }
+
+        .welcome {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .welcome-container {
+            text-align: center;
+            position: relative;
+        }
+
+        .welcome-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 24px;
+        }
+
+        .gallery-title {
+            text-align: center;
+            margin: 30px 0 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .fontp{
+            font-weight: bold;
+            font-size: 15px;
+        }
+        
+        .card {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05); /* Membesarkan ukuran kartu saat dihover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Memberikan efek bayangan lebih besar */
+        }
+ 
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card .content {
+            padding: 15px;
+        }
+
+        .card .content h3 {
+            margin: 0 0 10px;
+            text-align: center;
+        }
+
+        .card .content p {
+            margin: 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .about {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        
+        .location-section {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .location-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .map-container {
+            width: 100%;
+            height: 400px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+        }
